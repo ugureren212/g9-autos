@@ -24,7 +24,7 @@
 
     <!-- Services Overview Section -->
     <section class="services-overview open-sans-logo" id="services">
-      <div class="services-overview-content" style="margin-top: 50px">
+      <div class="services-overview-content" style="margin: auto auto; margin-top: 50px; height:90%; width:90%">
         <div class="service-item">
           <img
               src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSdtdsILZRmWHLY_VZan_qmr6dQFYqDgzDdx1iVvEkvh-dCIkeirCtMwkkYV3uAUrABJDY&usqp=CAU"
@@ -32,7 +32,8 @@
               class="service-image"
           />
           <h4>Full Service</h4>
-          <p>Comprehensive maintenance to ensure your car is roadworthy and running efficiently, covering engine, brakes, and fluids.</p>
+          <p>Comprehensive maintenance to ensure your car is roadworthy and running efficiently, covering engine,
+            brakes, and fluids.</p>
         </div>
         <div class="service-item">
           <img
@@ -50,7 +51,8 @@
               class="service-image"
           />
           <h4>Clutch</h4>
-          <p>Clutch diagnostics, repairs, and replacements to ensure smooth gear transitions and a reliable driving experience.</p>
+          <p>Clutch diagnostics, repairs, and replacements to ensure smooth gear transitions and a reliable driving
+            experience.</p>
         </div>
         <div class="service-item">
           <img

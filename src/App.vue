@@ -1,7 +1,7 @@
 <template>
   <div id="app">
-    <services-page></services-page>
-<!--    <gallery-page></gallery-page>-->
+<!--    <services-page></services-page>-->
+    <gallery-page></gallery-page>
    </div>
 </template>
 
