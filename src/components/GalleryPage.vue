@@ -213,6 +213,12 @@ a {
   text-align: center;
   padding: 20px;
   background-color: #1a1a1a;
+  color: #fff;
+  position: fixed; /* Fix the section to the viewport */
+  bottom: 0; /* Position it at the bottom */
+  left: 0;
+  width: 100%; /* Ensure it spans the full width of the screen */
+  z-index: 100; /* Make sure it stays above other content if necessary */
 }
 
 .contact-section h2 {
@@ -228,7 +234,7 @@ a {
 }
 
 .contact-details p {
-  color: #fff;
   margin: 0;
 }
+
 </style>

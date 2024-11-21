@@ -22,32 +22,18 @@
       </div>
     </nav>
 
-    <!-- Hero Section -->
-    <header class="hero-section">
-      <div class="hero-content">
-        <h1>G9 Autos Ltd</h1>
-        <p>Your one-stop shop for MOT, repairs, and diagnostics.</p>
-      </div>
-    </header>
-
     <!-- Services Overview Section -->
     <section class="services-overview open-sans-logo" id="services">
-      <h2 style="margin-left: 28%">Garage Services in Walthamstow, London, E17 6bh unit 4</h2>
-      <div class="cards-container">
-        <div class="card">
-          <img src="../assets/fastIcon.png" alt="Fast Service" class="card-image" />
-          <h4>Fast</h4>
+      <div class="cards-container" style="margin-top:50px;">
+        <div class="about-us-card">
+          <img src="https://via.placeholder.com/300x200" alt="Experienced Mechanics" class="card-image" />
+          <h4>Mechanic 1</h4>
           <p>We ensure quick and efficient service to get you back on the road in no time.</p>
         </div>
-        <div class="card">
-          <img src="../assets/reliabilityIcon.png" alt="Reliable Service" class="card-image" />
-          <h4>Reliable</h4>
+        <div class="about-us-card">
+          <img src="https://via.placeholder.com/300x200" alt="Experienced Mechanics" class="card-image" />
+          <h4>Mechanic 2</h4>
           <p>Our team is dedicated to providing reliable solutions for your vehicle's needs.</p>
-        </div>
-        <div class="card">
-          <img src="../assets/honestIcon.png" alt="Honest Service" class="card-image" />
-          <h4>Honest</h4>
-          <p>We offer transparent pricing and honest advice for every service we provide.</p>
         </div>
       </div>
     </section>
@@ -66,7 +52,7 @@
 
 <script>
 export default {
-  name: "ServicesPage",
+  name: "AboutUsPage",
 };
 </script>
 
@@ -146,14 +132,14 @@ a {
 .cards-container {
   display: flex;
   justify-content: space-between;
-  gap: 20px;
+  gap: 10px;
   flex-wrap: wrap;
   text-align: center;
 }
 
-.card {
+.about-us-card {
   flex: 1;
-  max-width: 300px;
+  max-width: 45%;
   padding: 20px;
   border: 2px solid #d4af37;
   background-color: #1a1a1a;
@@ -175,7 +161,6 @@ a {
   color: #d4af37;
   font-size: 14px;
 }
-
 /* Contact Us Section */
 .contact-section {
   text-align: center;
