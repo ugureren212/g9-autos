@@ -3,12 +3,12 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <!-- Services Overview Section -->
     <section class="services-overview open-sans-logo" id="services" style="margin-bottom: 40px">
-      <div class="services-overview-content" style="margin: auto auto; margin-top: 50px; height:90%; width:90%">
+      <div class="services-overview-content" style="margin: auto auto; margin-bottom: 100px; margin-top: 50px; height:90%; width:90%">
         <div class="service-item">
           <img
-              src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSdtdsILZRmWHLY_VZan_qmr6dQFYqDgzDdx1iVvEkvh-dCIkeirCtMwkkYV3uAUrABJDY&usqp=CAU"
-              alt="Full Service"
-              class="service-image"
+            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSdtdsILZRmWHLY_VZan_qmr6dQFYqDgzDdx1iVvEkvh-dCIkeirCtMwkkYV3uAUrABJDY&usqp=CAU"
+            alt="Full Service"
+            class="service-image"
           />
           <h4>Full Service</h4>
           <p>Comprehensive maintenance to ensure your car is roadworthy and running efficiently, covering engine,
@@ -16,18 +16,18 @@
         </div>
         <div class="service-item">
           <img
-              src="https://media.istockphoto.com/id/1349412663/photo/supervisor-at-a-car-workshop-checking-tablet-while-mechanic-works-at-background-on-a-car.jpg?s=612x612&w=0&k=20&c=8gIKT99lBP5llaNxxpqaxZ2xYZcRDA0vV5hvYmJrkbQ="
-              alt="Brake Pads"
-              class="service-image"
+            src="https://media.istockphoto.com/id/1349412663/photo/supervisor-at-a-car-workshop-checking-tablet-while-mechanic-works-at-background-on-a-car.jpg?s=612x612&w=0&k=20&c=8gIKT99lBP5llaNxxpqaxZ2xYZcRDA0vV5hvYmJrkbQ="
+            alt="Brake Pads"
+            class="service-image"
           />
           <h4>Brake Pads</h4>
           <p>Expert installation and replacement of brake pads to keep your vehicle safe and responsive on the road.</p>
         </div>
         <div class="service-item">
           <img
-              src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQyKPxg80SXXDL1h97elTet-gzfMBzkiXyzlQ&s"
-              alt="Clutch"
-              class="service-image"
+            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQyKPxg80SXXDL1h97elTet-gzfMBzkiXyzlQ&s"
+            alt="Clutch"
+            class="service-image"
           />
           <h4>Clutch</h4>
           <p>Clutch diagnostics, repairs, and replacements to ensure smooth gear transitions and a reliable driving
@@ -35,45 +35,45 @@
         </div>
         <div class="service-item">
           <img
-              src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSdtdsILZRmWHLY_VZan_qmr6dQFYqDgzDdx1iVvEkvh-dCIkeirCtMwkkYV3uAUrABJDY&usqp=CAU"
-              alt="Engine Rebuilt"
-              class="service-image"
+            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSdtdsILZRmWHLY_VZan_qmr6dQFYqDgzDdx1iVvEkvh-dCIkeirCtMwkkYV3uAUrABJDY&usqp=CAU"
+            alt="Engine Rebuilt"
+            class="service-image"
           />
           <h4>Engine Rebuilt</h4>
           <p>Skilled engine rebuilding services for better performance and extended engine lifespan.</p>
         </div>
         <div class="service-item">
           <img
-              src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSdtdsILZRmWHLY_VZan_qmr6dQFYqDgzDdx1iVvEkvh-dCIkeirCtMwkkYV3uAUrABJDY&usqp=CAU"
-              alt="Timing Belts"
-              class="service-image"
+            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSdtdsILZRmWHLY_VZan_qmr6dQFYqDgzDdx1iVvEkvh-dCIkeirCtMwkkYV3uAUrABJDY&usqp=CAU"
+            alt="Timing Belts"
+            class="service-image"
           />
           <h4>Timing Belts</h4>
           <p>Replacement and servicing of timing belts to prevent breakdowns and ensure optimal engine performance.</p>
         </div>
         <div class="service-item">
           <img
-              src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSdtdsILZRmWHLY_VZan_qmr6dQFYqDgzDdx1iVvEkvh-dCIkeirCtMwkkYV3uAUrABJDY&usqp=CAU"
-              alt="Timing Chain"
-              class="service-image"
+            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSdtdsILZRmWHLY_VZan_qmr6dQFYqDgzDdx1iVvEkvh-dCIkeirCtMwkkYV3uAUrABJDY&usqp=CAU"
+            alt="Timing Chain"
+            class="service-image"
           />
           <h4>Timing Chain</h4>
           <p>Accurate replacement of timing chains to keep your engine running smoothly and efficiently.</p>
         </div>
         <div class="service-item">
           <img
-              src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQyKPxg80SXXDL1h97elTet-gzfMBzkiXyzlQ&s"
-              alt="DPF Delete & Remapping"
-              class="service-image"
+            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQyKPxg80SXXDL1h97elTet-gzfMBzkiXyzlQ&s"
+            alt="DPF Delete & Remapping"
+            class="service-image"
           />
           <h4>DPF (Delete & Remapping)</h4>
           <p>Advanced DPF solutions, including deletion and remapping, for improved emissions and performance.</p>
         </div>
         <div class="service-item">
           <img
-              src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSdtdsILZRmWHLY_VZan_qmr6dQFYqDgzDdx1iVvEkvh-dCIkeirCtMwkkYV3uAUrABJDY&usqp=CAU"
-              alt="Pick & Drop Off"
-              class="service-image"
+            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSdtdsILZRmWHLY_VZan_qmr6dQFYqDgzDdx1iVvEkvh-dCIkeirCtMwkkYV3uAUrABJDY&usqp=CAU"
+            alt="Pick & Drop Off"
+            class="service-image"
           />
           <h4>Pick & Drop Off</h4>
           <p>Convenient vehicle collection and delivery services to save you time and hassle.</p>
@@ -124,7 +124,6 @@ a {
 .services-overview-content {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
-  grid-template-rows: repeat(4, auto);
   gap: 20px;
 }
 
@@ -152,33 +151,21 @@ a {
   object-fit: cover;
 }
 
-/* Contact Us Section */
-.contact-section {
-  text-align: center;
-  padding: 20px;
-  background-color: #1a1a1a;
-  color: #fff;
-  position: fixed; /* Fix the section to the viewport */
-  bottom: 0; /* Position it at the bottom */
-  left: 0;
-  width: 100%; /* Ensure it spans the full width of the screen */
-  z-index: 100; /* Make sure it stays above other content if necessary */
+/* Responsive Design */
+@media (max-width: 768px) {
+  .services-overview-content {
+    grid-template-columns: repeat(2, 1fr); /* Two items per row */
+    gap: 15px;
+  }
+
+  .service-item {
+    padding: 10px;
+  }
 }
 
-.contact-section h2 {
-  color: #d4af37;
-  margin-bottom: 15px;
+@media (max-width: 480px) {
+  .services-overview-content {
+    grid-template-columns: 1fr; /* One item per row */
+  }
 }
-
-.contact-details {
-  display: flex;
-  justify-content: center;
-  gap: 15px;
-  flex-wrap: wrap;
-}
-
-.contact-details p {
-  margin: 0;
-}
-
 </style>
