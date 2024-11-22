@@ -5,12 +5,12 @@
     <section class="services-overview open-sans-logo" id="services">
       <div class="cards-container" style="margin-top:50px;">
         <div class="about-us-card">
-          <img src="https://via.placeholder.com/300x200" alt="Experienced Mechanics" class="card-image" />
+          <img src="https://via.placeholder.com/300x200" alt="Experienced Mechanics" class="card-image"/>
           <h4>Mechanic 1</h4>
           <p>We ensure quick and efficient service to get you back on the road in no time.</p>
         </div>
         <div class="about-us-card">
-          <img src="https://via.placeholder.com/300x200" alt="Experienced Mechanics" class="card-image" />
+          <img src="https://via.placeholder.com/300x200" alt="Experienced Mechanics" class="card-image"/>
           <h4>Mechanic 2</h4>
           <p>Our team is dedicated to providing reliable solutions for your vehicle's needs.</p>
         </div>
@@ -73,7 +73,7 @@ a {
 
 .about-us-card {
   flex: 1;
-  max-width: 45%;
+  max-width: 45%; /* Default for larger screens */
   padding: 20px;
   border: 2px solid #d4af37;
   background-color: #1a1a1a;
@@ -95,6 +95,7 @@ a {
   color: #d4af37;
   font-size: 14px;
 }
+
 /* Contact Us Section */
 .contact-section {
   text-align: center;
@@ -131,8 +132,19 @@ a {
     align-items: center;
   }
 
-  .card {
-    max-width: 100%;
+  .about-us-card {
+    max-width: 90%; /* Take most of the width on smaller screens */
+    margin-bottom: 20px; /* Add spacing between cards */
   }
+
+  .card-image {
+    width: 100%; /* Make images responsive */
+    height: auto;
+  }
+
+  .services-overview {
+    margin-bottom: 140px;
+  }
+
 }
 </style>
