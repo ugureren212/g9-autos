@@ -1,27 +1,6 @@
 <template>
   <div>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <!-- Navigation Bar -->
-    <nav class="navbar">
-      <img src="../assets/g9-logo.png" alt="g9 logo"
-           style="border: 3px solid #d4af37; position: absolute; top: 20px; width: 30%; height: auto;">
-      <ul class="navbar-links open-sans-logo" style="margin-left: 40%">
-        <li><a href="#services">Services</a></li>
-        <li><a href="#gallery">Gallery</a></li>
-        <li><a href="#about">About Us</a></li>
-      </ul>
-      <div class="contact-button">
-        <button class="cta-button" style="margin-right: 10px">
-          <i class="fa fa-phone"></i>
-          07853 901 804
-        </button>
-        <button class="cta-button">
-          <i class="fa fa-phone"></i>
-          07718 785 217
-        </button>
-      </div>
-    </nav>
-
     <!-- Services Overview Section -->
     <section class="services-overview open-sans-logo" id="services">
       <div class="cards-container" style="margin-top:50px;">
@@ -35,16 +14,6 @@
           <h4>Mechanic 2</h4>
           <p>Our team is dedicated to providing reliable solutions for your vehicle's needs.</p>
         </div>
-      </div>
-    </section>
-
-    <!-- Contact Us Section -->
-    <section id="contact" class="contact-section">
-      <h2>Contact Us</h2>
-      <div class="contact-details">
-        <p>📞 <strong>Phone:</strong> +1 234 567 8901</p>
-        <p>📧 <strong>Email:</strong> info@g9autoltd.com</p>
-        <p>📍 <strong>Address:</strong> 123 Auto Lane, Mechanicsville, XY 12345</p>
       </div>
     </section>
   </div>
@@ -75,41 +44,6 @@ h1, h2, h4, p {
 a {
   text-decoration: none;
   color: inherit;
-}
-
-/* Navigation Bar */
-.navbar {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  background-color: #000;
-  padding: 15px 30px;
-  border-bottom: 2px solid #d4af37;
-}
-
-.navbar-links {
-  list-style: none;
-  display: flex;
-  gap: 20px;
-}
-
-.cta-button {
-  background-color: #d4af37;
-  color: #000;
-  padding: 8px 15px;
-  border: none;
-  border-radius: 5px;
-  cursor: pointer;
-}
-
-/* Hero Section */
-.hero-section {
-  background: linear-gradient(
-      rgba(0, 0, 0, 0.6),
-      rgba(0, 0, 0, 0.6)
-  ), url('https://ukfilmlocation.com/storage/images/generated/resized/825x620/location/5192/99813.jpg?v=1629367283') no-repeat center center/cover;
-  text-align: center;
-  padding: 100px 20px;
 }
 
 .hero-content h1 {

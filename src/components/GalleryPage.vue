@@ -1,29 +1,8 @@
 <template>
   <div>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <!-- Navigation Bar -->
-    <nav class="navbar">
-      <img src="../assets/g9-logo.png" alt="g9 logo"
-           style="border: 3px solid #d4af37; position: absolute; top: 20px; width: 30%; height: auto;">
-      <ul class="navbar-links open-sans-logo" style="margin-left: 40%">
-        <li><a href="#services">Services</a></li>
-        <li><a href="#gallery">Gallery</a></li>
-        <li><a href="#about">About Us</a></li>
-      </ul>
-      <div class="contact-button">
-        <button class="cta-button" style="margin-right: 10px">
-          <i class="fa fa-phone"></i>
-          07853 901 804
-        </button>
-        <button class="cta-button">
-          <i class="fa fa-phone"></i>
-          07718 785 217
-        </button>
-      </div>
-    </nav>
-
     <!-- Services Overview Section -->
-    <section class="services-overview open-sans-logo" id="services">
+    <section class="services-overview open-sans-logo" id="services" style="margin-bottom: 40px">
       <div class="services-overview-content" style="margin: auto auto; margin-top: 50px; height:90%; width:90%">
         <div class="service-item">
           <img
@@ -101,16 +80,6 @@
         </div>
       </div>
     </section>
-
-    <!-- Contact Us Section -->
-    <section id="contact" class="contact-section">
-      <h2>Contact Us</h2>
-      <div class="contact-details">
-        <p>📞 <strong>Phone:</strong> +1 234 567 8901</p>
-        <p>📧 <strong>Email:</strong> info@g9autoltd.com</p>
-        <p>📍 <strong>Address:</strong> 123 Auto Lane, Mechanicsville, XY 12345</p>
-      </div>
-    </section>
   </div>
 </template>
 
@@ -139,31 +108,6 @@ h1, h2, h4, p {
 a {
   text-decoration: none;
   color: inherit;
-}
-
-/* Navigation Bar */
-.navbar {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  background-color: #000;
-  padding: 15px 30px;
-  border-bottom: 2px solid #d4af37;
-}
-
-.navbar-links {
-  list-style: none;
-  display: flex;
-  gap: 20px;
-}
-
-.cta-button {
-  background-color: #d4af37;
-  color: #000;
-  padding: 8px 15px;
-  border: none;
-  border-radius: 5px;
-  cursor: pointer;
 }
 
 /* Services Overview Section */
