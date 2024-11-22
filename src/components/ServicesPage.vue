@@ -11,7 +11,7 @@
 
     <!-- Services Overview Section -->
     <section class="services-overview open-sans-logo" id="services">
-      <h2 style="margin-left: 28%">Garage Services in Walthamstow, London, E17 6bh unit 4</h2>
+      <h2>Garage Services in Walthamstow, London, E17 6bh unit 4</h2>
       <div class="cards-container">
         <div class="card">
           <img src="../assets/fastIcon.png" alt="Fast Service" class="card-image" />
@@ -60,30 +60,7 @@ a {
   color: inherit;
 }
 
-/* Navigation Bar */
-.navbar {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  background-color: #000;
-  padding: 15px 30px;
-  border-bottom: 2px solid #d4af37;
-}
 
-.navbar-links {
-  list-style: none;
-  display: flex;
-  gap: 20px;
-}
-
-.cta-button {
-  background-color: #d4af37;
-  color: #000;
-  padding: 8px 15px;
-  border: none;
-  border-radius: 5px;
-  cursor: pointer;
-}
 
 /* Hero Section */
 .hero-section {
@@ -110,6 +87,7 @@ a {
 .services-overview h2 {
   color: #d4af37;
   margin-bottom: 30px;
+  text-align: center;
 }
 
 .cards-container {
@@ -177,12 +155,15 @@ a {
 /* Responsive Design */
 @media (max-width: 768px) {
   .cards-container {
-    flex-direction: column;
-    align-items: center;
+    flex-wrap: nowrap;
+    justify-content: space-evenly; /* Ensures equal spacing between cards */
+    overflow-x: auto; /* Adds horizontal scrolling */
   }
 
   .card {
-    max-width: 100%;
+    flex: 0 0 45%; /* Each card takes up 45% of the container's width */
+    margin: 10px;
   }
+
 }
 </style>

@@ -5,9 +5,9 @@
     <section id="contact" class="contact-section">
       <h2>Contact Us</h2>
       <div class="contact-details">
-        <p>📞 <strong>Phone:</strong> +1 234 567 8901</p>
-        <p>📧 <strong>Email:</strong> info@g9autoltd.com</p>
-        <p>📍 <strong>Address:</strong> 123 Auto Lane, Mechanicsville, XY 12345</p>
+        <p>📞 +1 234 567 8901</p>
+        <p>📧 info@g9autoltd.com</p>
+        <p>📍 Walthamstow, London, E17 6bh unit 4</p>
       </div>
     </section>
   </div>
@@ -74,13 +74,12 @@ a {
 
 .contact-details {
   display: flex;
-  justify-content: center;
-  gap: 15px;
-  flex-wrap: wrap;
+  justify-content: center; /* Align items in the center horizontally */
+  gap: 20px; /* Add space between the items */
+  flex-wrap: wrap; /* Allow wrapping if the screen size is too small */
 }
 
 .contact-details p {
   margin: 0;
 }
-
 </style>
