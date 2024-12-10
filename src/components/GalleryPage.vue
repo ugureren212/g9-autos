@@ -3,6 +3,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <!-- Services Overview Section -->
     <section class="services-overview open-sans-logo" id="services" style="margin-bottom: 40px">
+      <h2 style="font-size: 40px;">Gallery</h2>
       <div class="services-overview-content" style="margin: auto auto; margin-bottom: 100px; margin-top: 50px; height:90%; width:90%">
         <div class="service-item">
           <img
@@ -116,7 +117,7 @@ a {
   background-color: #000;
 }
 
-.services-overview h2 {
+.services-overview h2, h1{
   color: #d4af37;
   margin-bottom: 30px;
 }

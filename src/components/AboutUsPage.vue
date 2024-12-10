@@ -1,6 +1,7 @@
 <template>
   <div>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <h2 class="about-us-title" style="font-size: 40px;">About Us</h2>
     <!-- Services Overview Section -->
     <section class="services-overview open-sans-logo" id="services">
       <div class="cards-container" style="margin-top:50px;">
@@ -123,6 +124,12 @@ a {
 
 .contact-details p {
   margin: 0;
+}
+
+.about-us-title{
+  text-align: center;
+  margin: 40px 20px;
+  color: #d4af37;
 }
 
 /* Responsive Design */
