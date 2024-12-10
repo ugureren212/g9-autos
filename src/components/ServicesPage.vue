@@ -11,7 +11,7 @@
 
     <!-- Services Overview Section -->
     <section class="services-overview open-sans-logo" id="services">
-      <h2>Garage Services in Walthamstow, London, E17 6bh unit 4</h2>
+      <h2 class="address-text">Garage Services in Walthamstow, London, E17 6bh unit 4</h2>
       <div class="cards-container">
         <div class="card">
           <img src="../assets/fastIcon.png" alt="Fast Service" class="card-image" />
@@ -161,8 +161,11 @@ a {
   }
 
   .card {
-    flex: 0 0 45%; /* Each card takes up 45% of the container's width */
-    margin: 10px;
+    display: none;
+  }
+
+  .address-text{
+   font-size: 20px;
   }
 
 }

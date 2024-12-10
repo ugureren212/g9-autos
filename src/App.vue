@@ -7,9 +7,9 @@
     <div v-if="selectedPage==='gallery'">
       <gallery-page></gallery-page>
     </div>
-    <div v-if="selectedPage==='about'">
-      <about-us-page></about-us-page>
-    </div>
+<!--    <div v-if="selectedPage==='about'">-->
+<!--      <about-us-page></about-us-page>-->
+<!--    </div>-->
     <contact-us></contact-us>
   </div>
 </template>
@@ -18,7 +18,7 @@
 import NavigationBar from "@/components/NavigationBar.vue";
 import ServicesPage from "@/components/ServicesPage.vue";
 import GalleryPage from "@/components/GalleryPage.vue"
-import AboutUsPage from "@/components/AboutUsPage.vue";
+// import AboutUsPage from "@/components/AboutUsPage.vue";
 import ContactUs from "@/components/ContactUs.vue";
 
 
@@ -29,7 +29,8 @@ export default {
       selectedPage: 'services',
     };
   },
-  components: {NavigationBar, ServicesPage, GalleryPage, AboutUsPage, ContactUs},
+  // components: {NavigationBar, ServicesPage, GalleryPage, AboutUsPage, ContactUs},
+  components: {NavigationBar, ServicesPage, GalleryPage, ContactUs},
   methods: {
     handlePageChange(page) {
       const vm = this

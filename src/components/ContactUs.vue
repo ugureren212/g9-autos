@@ -90,5 +90,9 @@ a {
     flex-direction: column; /* Stack items vertically on smaller screens */
     gap: 10px; /* Reduce the gap between items */
   }
+
+  h2 {
+    margin-right: 30px;
+  }
 }
 </style>

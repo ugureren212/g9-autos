@@ -11,9 +11,9 @@
         <li>
           <a href="#gallery" @click.prevent="navigate('gallery')">Gallery</a>
         </li>
-        <li>
-          <a href="#about" @click.prevent="navigate('about')">About</a>
-        </li>
+<!--        <li>-->
+<!--          <a href="#about" @click.prevent="navigate('about')">About</a>-->
+<!--        </li>-->
       </ul>
       <div class="contact-button">
         <button class="cta-button" disabled>
@@ -60,6 +60,10 @@ h1, h2, h4, p {
 a {
   text-decoration: none;
   color: inherit;
+}
+
+li{
+  font-size: 25px;
 }
 
 /* Navigation Bar */
