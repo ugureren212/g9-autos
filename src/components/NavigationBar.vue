@@ -124,7 +124,7 @@ a {
   .navbar-links {
     flex-direction: row;
     justify-content: center;
-    width: 100%;
+    width: 80%;
     margin: 10px 0;
   }
 

@@ -5,7 +5,7 @@
     <section id="contact" class="contact-section">
       <h2>Contact Us</h2>
       <div class="contact-details">
-        <p>📞 +1 234 567 8901</p>
+        <p>📞 07853 901 804  | 📞 07718 785 217</p>
         <p>📧 info@g9autoltd.com</p>
         <p>📍 Walthamstow, London, E17 6bh unit 4</p>
       </div>
@@ -81,5 +81,14 @@ a {
 
 .contact-details p {
   margin: 0;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .contact-details {
+    width: 90%;
+    flex-direction: column; /* Stack items vertically on smaller screens */
+    gap: 10px; /* Reduce the gap between items */
+  }
 }
 </style>
