@@ -5,26 +5,16 @@
     <nav class="navbar">
       <img class="logo" src="../assets/g9-logo.png" alt="g9 logo">
       <ul class="navbar-links open-sans-logo">
-        <li>
-          <a href="#services" @click.prevent="navigate('services')">Services</a>
+        <li v-for="link in links" :key="link.id">
+          <a
+            :class="{ active: activeLink === link.id }"
+            href="javascript:void(0);"
+            @click.prevent="setActive(link.id)"
+          >
+            {{ link.name }}
+          </a>
         </li>
-        <li>
-          <a href="#gallery" @click.prevent="navigate('gallery')">Gallery</a>
-        </li>
-<!--        <li>-->
-<!--          <a href="#about" @click.prevent="navigate('about')">About</a>-->
-<!--        </li>-->
       </ul>
-      <div class="contact-button">
-        <button class="cta-button" disabled>
-          <i class="fa fa-phone"></i>
-          07853 901 804
-        </button>
-        <button class="cta-button" disabled>
-          <i class="fa fa-phone"></i>
-          07718 785 217
-        </button>
-      </div>
     </nav>
   </div>
 </template>
@@ -32,10 +22,20 @@
 <script>
 export default {
   name: "NavigationBar",
+  data() {
+    return {
+      activeLink: null, // Tracks the active link
+      links: [
+        { id: 'services', name: 'Services' },
+        { id: 'gallery', name: 'Gallery' },
+        // Add more links here if needed
+      ],
+    };
+  },
   methods: {
-    navigate(page) {
-      // Emit the selected page to the parent component
-      this.$emit('page-selected', page);
+    setActive(linkId) {
+      this.activeLink = linkId; // Update the active link
+      this.$emit('page-selected', linkId); // Emit event to parent
     },
   },
 };
@@ -62,8 +62,8 @@ a {
   color: inherit;
 }
 
-li{
-  font-size: 25px;
+li {
+  font-size: 30px;
 }
 
 /* Navigation Bar */
@@ -95,7 +95,7 @@ li{
 .navbar-links li a {
   padding: 8px 12px;
   border-radius: 4px;
-  transition: background-color 0.3s;
+  transition: background-color 0.3s, color 0.3s;
 }
 
 .navbar-links li a:hover {
@@ -103,20 +103,9 @@ li{
   color: #000;
 }
 
-.contact-button {
-  display: flex;
-  gap: 10px;
-  margin-top: 10px;
-}
-
-.cta-button {
+.navbar-links li a.active {
   background-color: #d4af37;
   color: #000;
-  padding: 8px 15px;
-  border: none;
-  border-radius: 5px;
-  cursor: pointer;
-  white-space: nowrap;
 }
 
 /* Responsive Design */
@@ -134,19 +123,7 @@ li{
 
   .navbar-links li a {
     padding: 8px 15px;
-    font-size: 16px;
-  }
-
-  .contact-button {
-    justify-content: center;
-    gap: 10px;
-    width: 100%;
-  }
-
-  .cta-button {
-    width: auto;
-    text-align: center;
-    font-size: 14px;
+    font-size: 25px;
   }
 }
 </style>
