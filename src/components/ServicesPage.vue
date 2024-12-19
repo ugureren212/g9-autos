@@ -101,7 +101,7 @@ a {
   background: linear-gradient(
       rgba(0, 0, 0, 0.6),
       rgba(0, 0, 0, 0.6)
-  ), url('https://ukfilmlocation.com/storage/images/generated/resized/825x620/location/5192/99813.jpg?v=1629367283') no-repeat center center/cover;
+  ), url('../assets/gallery/picBanner.jpg') no-repeat center center/cover;
   text-align: center;
   padding: 100px 20px;
 }
