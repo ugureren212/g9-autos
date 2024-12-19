@@ -4,13 +4,14 @@
     <div v-if="selectedPage==='services'">
       <services-page></services-page>
     </div>
+    <contact-us></contact-us>
+
     <div v-if="selectedPage==='gallery'">
       <gallery-page></gallery-page>
     </div>
 <!--    <div v-if="selectedPage==='about'">-->
 <!--      <about-us-page></about-us-page>-->
 <!--    </div>-->
-    <contact-us></contact-us>
   </div>
 </template>
 
