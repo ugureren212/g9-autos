@@ -6,6 +6,8 @@
       <div class="hero-content">
         <h1>G9 Autos Ltd</h1>
         <p>Your one-stop shop for MOT, repairs, and diagnostics.</p>
+        <br />
+        <p style="white-space: pre; color: #d4af37; font-weight: bold; font-size: 20px">07853 901 804&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;07718 785 217</p>
       </div>
     </header>
 
@@ -214,9 +216,8 @@ a {
   }
 
   .map-column {
-    width: 100%;
-    padding: 10px;
-    height: 300px;
+    width: 95%;
+    height: 400px;
   }
 
   .reviews-column {
