@@ -96,7 +96,7 @@ a {
   color: inherit;
 }
 
-/* Hero Section */
+/* Hero Section  */
 .hero-section {
   background: linear-gradient(
       rgba(0, 0, 0, 0.6),
