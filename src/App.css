@@ -1,0 +1,19 @@
+/* ── Skip link ── */
+.skip-link {
+  position: absolute;
+  top: -100%;
+  left: 1rem;
+  z-index: 200;
+  padding: 0.6rem 1.2rem;
+  background: var(--color-gold);
+  color: var(--color-bg);
+  font-size: 0.85rem;
+  font-weight: 500;
+  letter-spacing: 1px;
+  border-radius: 0 0 4px 4px;
+  transition: top 0.2s ease-out;
+}
+
+.skip-link:focus {
+  top: 0;
+}

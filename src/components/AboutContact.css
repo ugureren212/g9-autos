@@ -1,0 +1,110 @@
+.about-contact {
+  padding: 4rem 2rem;
+  background: var(--color-bg);
+  position: relative;
+}
+
+.about-contact::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 120px;
+  height: 1px;
+  background: linear-gradient(to right, transparent, rgba(212, 160, 32, 0.3), transparent);
+}
+
+.about-contact__container {
+  max-width: 1000px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 5rem;
+  align-items: center;
+}
+
+.about-contact__heading {
+  font-size: 0.75rem;
+  font-weight: 500;
+  color: var(--color-gold);
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  margin-bottom: 1.5rem;
+}
+
+.about-contact__about p {
+  color: var(--color-gray);
+  font-size: 0.9rem;
+  line-height: 1.9;
+  margin-bottom: 1rem;
+  font-weight: 300;
+}
+
+.about-contact__about p:last-child {
+  margin-bottom: 0;
+}
+
+.about-contact__contact {
+  text-align: center;
+}
+
+.about-contact__address {
+  color: var(--color-gray);
+  font-size: 0.85rem;
+  margin-bottom: 1.2rem;
+  letter-spacing: 0.5px;
+  font-weight: 300;
+}
+
+.about-contact__phones {
+  margin-bottom: 1.5rem;
+}
+
+.about-contact__phones a {
+  color: var(--color-white);
+  font-size: 1.1rem;
+  font-weight: 300;
+  letter-spacing: 1.5px;
+  transition: color 0.3s;
+}
+
+.about-contact__phones a:hover {
+  color: var(--color-gold);
+}
+
+.about-contact__sep {
+  margin: 0 0.75rem;
+  color: rgba(212, 160, 32, 0.5);
+}
+
+.about-contact__map iframe {
+  width: 100%;
+  border-radius: 6px;
+  background: var(--color-bg-alt);
+  opacity: 0.9;
+  transition: opacity 0.3s;
+}
+
+.about-contact__map iframe:hover {
+  opacity: 1;
+}
+
+@media (max-width: 768px) {
+  .about-contact {
+    padding: 2.5rem 1.5rem;
+  }
+
+  .about-contact__container {
+    grid-template-columns: 1fr;
+    gap: 2.5rem;
+  }
+
+  .about-contact__phones a {
+    font-size: 1rem;
+  }
+
+  .about-contact__map iframe {
+    height: 180px;
+  }
+}

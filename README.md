@@ -1,24 +1,38 @@
-# g9-autos-ltd
+# G9 Autos LTD — Website
 
-## Project setup
-```
-npm install
-```
+A simple, responsive single-page website for G9 Autos LTD, a local car mechanic shop.
 
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
+## Prerequisites
 
-### Compiles and minifies for production
-```
+- [Node.js](https://nodejs.org/) 18 or higher
+
+## Getting Started
+
+1. Install dependencies:
+
+   ```bash
+   npm install
+   ```
+
+2. Start the development server:
+
+   ```bash
+   npm run dev
+   ```
+
+3. Open your browser at the URL shown in the terminal (usually http://localhost:5173).
+
+## Building for Production
+
+```bash
 npm run build
 ```
 
-### Lints and fixes files
-```
-npm run lint
-```
+The built files will be in the `dist/` directory. Serve them with any static file server.
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+## Customisation
+
+- **About text:** Edit `src/components/About.jsx` to update the about section copy.
+- **Google Maps:** In `src/components/Contact.jsx`, replace the empty `src=""` in the iframe with your Google Maps embed URL.
+- **Images:** Replace files in `public/img/` with your own images, keeping the same filenames.
+- **Phone numbers:** Update numbers in `src/components/Contact.jsx` and `src/components/Footer.jsx`.
